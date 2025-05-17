@@ -1,6 +1,6 @@
 <p align="center">
 
-  <h2 align="center"><b>DeepGrasp</b>: Understanding human behaviour with task-driven learning</h1>
+  <h2 align="center"><b>DeepGrasp</b>: Modeling digital humans with task-driven learning</h1>
 
   
   <h5 align="center"> Bartlomiej Borzyszkowski
@@ -15,7 +15,7 @@
 </p>
 <br>
 
-Task-driven learning with deep neural networks is a powerful, emerging approach to elucidate and model computations in the brain. This work focuses on human-object interaction and aims to better understand, predict, and model human behaviour. We train a spatio-temporal Graph Neural Network (GCN) on multi-modal data, including body pose and touch signals. Our results show that the model learns a robust neural representation capable of solving multiple tasks, such as action recogition and object classification. Ultimately, new insights into the proprioceptive and touch pathways can contribute to more accurate models of the sensorimotor system, advancing active research in computational neuroscience.
+Task-driven learning with deep neural networks is a powerful, emerging approach to elucidate and model computations in the brain. This work focuses on human-object interaction and aims to better understand, predict, and model human behaviour using digital avatars. We train a spatio-temporal Graph Neural Network (GCN) on multi-modal data, including body pose and touch signals. Our results show that the model learns a robust neural representation capable of solving multiple tasks in the 3D space, such as action recogition and object classification. Ultimately, new insights into the proprioceptive and touch pathways can contribute to more accurate models of the sensorimotor system, advancing active research in computational neuroscience.
 
 ## Installation
 
