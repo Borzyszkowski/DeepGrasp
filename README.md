@@ -32,7 +32,7 @@ python3 -m venv venv_DeepGrasp
 source venv_DeepGrasp/bin/activate
 ```
 
-The project uses [PyTorch Geometric Temporal](https://pytorch-geometric-temporal.readthedocs.io/en/latest/index.html), extension library of PyTorch for Temporal Graph Neural Networks (T-GCNs) with a GPU acceleration. As a first step, install PyTorch, PyTorch Geometric and PyTorch Geometric Temporal for your CUDA Version. Recommended versions are:
+The project uses [PyTorch Geometric Temporal](https://pytorch-geometric-temporal.readthedocs.io/en/latest/index.html), extension library of PyTorch for Temporal Graph Neural Networks (T-GCNs) with a GPU acceleration. As a first step, install [PyTorch](https://pytorch.org/get-started/locally/), [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html) and [PyTorch Geometric Temporal](https://pytorch-geometric-temporal.readthedocs.io/en/latest/notes/installation.html) for your CUDA Version following official instructions. Recommended versions are:
 - PyTorch: `torch-2.4.1+cu124` `torchaudio-2.4.1+cu124` `torchvision-0.19.1+cu124`
 - PyTorch Geometric: `torch-geometric-2.6.1` `pyg_lib-0.4.0+pt24cu124`
 - PyTorch Geometric Temporal: `torch-geometric-temporal-0.54.0`
