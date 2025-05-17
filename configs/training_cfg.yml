@@ -1,0 +1,34 @@
+cuda_id: 0
+use_multigpu: False
+
+n_epochs: 200             # Number of epochs to train
+num_trials: 1             # Number of repeated trials to run 
+try_num: 0                # Trial number for training
+load_weights_path: null   # Path to load weights from to resume training
+log_every_iteration: 10   # Log every n iterations
+model_name: null          # Name of the model to train (string or empty)
+n_workers: 10             # Number of PyTorch dataloader workers
+
+cls_task_names:           ### Classification task selection ### 
+  obj_cat: True           # Object category classification
+  act_rec: True           # Action recognition
+reg_task_names:           ### Regression task selection ###
+  obj_pose: False         # Object pose regression
+  body_loc: False         # Body location regression
+
+input_types:              ### Input data type selection ###
+  contact: True           # Use contact features (touch modality)
+  fullpose: True          # Use fullpose features (fullpose modality)
+  joints_15: False        # Use only 15 joints features
+  joints_21: False        # Use only 21 joints features
+  verts: False            # Use complete mesh vertices features
+
+parse_arms:               ### Process full arm features ###
+  right: True             # Right arm features enabled
+  left: True              # Left arm features enabled
+parse_hands:              ### Process only hand features ###
+  right: False            # Right hand features enabled
+  left: False             # Left hand features enabled
+
+body_loc_mode: 'arm_loc'  # Select from ['arm_loc', 'wrist_loc', 'body_loc']
+parse_graph: True         # Use Graph Neural Network or not

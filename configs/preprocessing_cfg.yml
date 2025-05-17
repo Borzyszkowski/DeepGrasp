@@ -1,0 +1,14 @@
+cuda_id: 0
+
+subsample_sequences: 80     # subsampling sequences to a specified length (otherwise set False)
+mode: 2                     # 0 for object classification; 1 for action recognition; 2 for multitasking
+
+only_contact: True          # if True, returns only frames with contact
+only_prehension: False      # if True, returns only frames with prehension phase
+distinguish_shapes: True    # if True, objects with shapes (small, medium, large) will be separate classes
+center_neck: True           # if True, set the neck as a central reference joint (0, 0, 0)
+save_body_verts: True       # if True, will compute and save the body vertices (increases the dataset size)
+save_lhand_verts: False     # if True, will compute and save the lhand vertices
+save_rhand_verts: False     # if True, will compute and save the rhand vertices
+save_object_verts: False    # if True, will compute and save the object vertices
+save_contact: True          # if True, add the contact info to the saved data
