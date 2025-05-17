@@ -101,8 +101,8 @@ This work is based on the 3D body models [SMPL-X](https://smpl-x.is.tue.mpg.de) 
     Modify desired configuration parameters at `configs/preprocessing_cfg.yml`.
 
     ```Shell
-    python3 run_preprocessing.py  --grab-path $PATH_TO_EXTRACTED_GRAB_DATASET 
-                                  --model-path $SMPLX_MODEL_FOLDER 
+    python3 run_preprocessing.py  --grab-path $PATH_TO_EXTRACTED_GRAB_DATASET \
+                                  --model-path $SMPLX_MODEL_FOLDER \
                                   --out-path $PATH_TO_SAVE_PREPROCESSED_DATASET
     ```
 - <b>Training:</b> <br>
@@ -112,8 +112,8 @@ This work is based on the 3D body models [SMPL-X](https://smpl-x.is.tue.mpg.de) 
     To track your ML experiments via [neptune.ai](https://neptune.ai/), export env variables `NEPTUNE_API_TOKEN` & `NEPTUNE_PROJECT` for your Neptune project. If not specified, tracking is done offline.
 
     ```Shell
-    python3 run_training.py  --work-dir $TRAINING_DIRECTORY 
-                             --data-path $PATH_TO_PREPROCESSED_DATASET
+    python3 run_training.py  --work-dir $TRAINING_DIRECTORY \
+                             --data-path $PATH_TO_PREPROCESSED_DATASET \
                              --expr-ID $ID_OF_YOUR_EXPERIMENT
     ```
     Detailed results will be available in your `work_dir` and can be inspected as TensorBoard and Neptune artifacts.
