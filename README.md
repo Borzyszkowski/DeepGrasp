@@ -16,7 +16,7 @@
 </p>
 <br>
 
-Task-driven learning with deep neural networks is a powerful, emerging approach to elucidate and model computations in the brain. This work focuses on human-object interaction and aims to better understand, predict, and model human behaviour using digital avatars. We train a spatio-temporal Graph Neural Network (GCN) on multi-modal data, including body pose and touch signals. Our results show that the model learns a robust neural representation capable of solving multiple tasks in 3D space, such as action recognition and object classification. Ultimately, new insights into proprioceptive and tactile pathways can contribute to more accurate models of the sensorimotor system, advancing active research in computational neuroscience.
+Task-driven learning with deep neural networks is a powerful, emerging approach to elucidate and model computations in the brain. This work focuses on human-object interaction and aims to better understand, predict, and model human behaviour using digital avatars. We train a Graph Neural Network (GCN) with spatial and temporal attention on multi-modal data, including body pose and touch signals. Our results show that the model learns a robust neural representation capable of solving multiple classification and regression tasks in 3D space, such as action recognition and object classification. Ultimately, new insights into proprioceptive and tactile pathways can contribute to more accurate models of the sensorimotor system, advancing active research in computational neuroscience.
 
 ## Installation
 
