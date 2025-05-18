@@ -2,6 +2,7 @@
 
   <h2 align="center"><b>DeepGrasp</b>: Modeling digital humans with task-driven learning</h1>
 
+  <p align="center"><img src="docs/img/DeepGrasp_main.gif" width="700" align="middle"></p>
   
   <h5 align="center"> Bartlomiej Borzyszkowski
    <br>
