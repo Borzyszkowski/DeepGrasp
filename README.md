@@ -22,6 +22,9 @@
 
 Task-driven learning with deep neural networks is a powerful, emerging approach to elucidate and model computations in the brain. This work focuses on human-object interaction and aims to better understand, predict, and model human behaviour using digital avatars. We train a Graph Convolutional Network (GCN) with spatial and temporal attention on multi-modal data, including body pose and touch signals. Our results show that the model learns a robust neural representation capable of solving multiple classification and regression tasks in 3D space, such as action recognition and object classification. The results demonstrate that task-driven multi-modal learning can capture meaningful structure in human grasping behavior, offering a step toward more accurate models of the sensorimotor system and advancing research in computational neuroscience.
 
+Refer to the corresponding publication for more details: <a href="./docs/Borzyszkowski_DeepGrasp.pdf">[link]</a>
+
+
 ## Installation
 
 The software has been tested on Ubuntu 22.04 with CUDA 12.4 and Python3.10.
